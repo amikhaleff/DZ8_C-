@@ -195,7 +195,7 @@ void ZADACHA_58()
                 int sum=0;
                 for (int k = 0; k < multiMatrix.GetLength(1); k++)
                 {
-                    sum+=firstMatrix[i,j]*secondMatrix[i,j];
+                    sum+=firstMatrix[i,k]*secondMatrix[k,j];
                 }
                 multiMatrix[i,j]=sum;
             } 
